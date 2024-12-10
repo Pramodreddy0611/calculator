@@ -5,8 +5,8 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy calculator script into the container
-COPY calculator.py /app
+COPY Calculator.py /app
 
 # Command to run the calculator
-CMD ["python", "calculator.py"]
+CMD ["python", "Calculator.py"]
 
